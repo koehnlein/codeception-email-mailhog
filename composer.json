@@ -1,11 +1,15 @@
 {
-    "name": "ericmartel/codeception-email-mailhog",
+    "name": "koehnlein/codeception-email-mailhog",
     "description": "Provides test helpers for Codeception when testing email functionality with MailHog",
     "license": "MIT",
     "authors": [
         {
             "name": "Eric Martel",
             "email": "emartel@gmail.com"
+        },
+        {
+            "name": "Albrecht Köhnlein",
+            "email": "ak@koehnlein.eu"
         }
     ],
     "require": {
@@ -16,5 +20,8 @@
         "psr-4": {
             "Codeception\\Module\\": "src"
         }
+    },
+    "replace": {
+        "ericmartel/codeception-email-mailhog":"*"
     }
 }
